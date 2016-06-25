@@ -1,0 +1,34 @@
+{
+  "name": "nsacg",
+  "version": "1.0.0",
+  "description": "Print fake NSA codenames to your terminal.",
+  "main": "index.js",
+  "bin": {
+    "nsacg": "cli.js"
+  },
+  "keywords": [
+    "nsa",
+    "codename"
+  ],
+  "author": "Gabriel Montalvo",
+  "homepage": "https://github.com/gmontalvoriv/nsacg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmontalvoriv/nsacg"
+  },
+  "bugs": {
+    "url": "https://github.com/gmontalvoriv/nsacg"
+  },
+  "preferGlobal": true,
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "mocha-sinon": "^1.1.5",
+    "sinon": "^1.17.4"
+  }
+}
